@@ -1,73 +1,110 @@
-# Welcome to your Lovable project
+# Omkar Dhamdhere - Data Analyst Portfolio
 
-## Project info
+A modern, responsive portfolio website showcasing my expertise in data analysis, visualization, and business intelligence. Built with React, TypeScript, and modern web technologies to demonstrate technical skills and project work.
 
-**URL**: https://lovable.dev/projects/771238f1-7635-42de-924e-33679eabe859
+## About Me
 
-## How can I edit this code?
+I'm a passionate Data Analyst based in Pune, India, specializing in transforming complex data into actionable insights. With expertise in SQL, Power BI, Python, and Java development, I help organizations make data-driven decisions through comprehensive analysis and visualization.
 
-There are several ways of editing your application.
+My portfolio demonstrates my ability to:
+- Extract and analyze large datasets using SQL and Python
+- Create compelling visualizations and dashboards with Power BI
+- Develop web applications and tools using modern technologies
+- Apply statistical methods to solve business problems
+- Present findings through clear and effective storytelling
 
-**Use Lovable**
+## Skills & Technologies
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/771238f1-7635-42de-924e-33679eabe859) and start prompting.
+### Core Data Analysis
+- **SQL**: Complex queries, stored procedures, database design and optimization
+- **Python**: Data manipulation with pandas, statistical analysis, automation scripts
+- **Power BI**: Interactive dashboards, DAX formulas, data modeling
+- **Excel**: Advanced formulas, pivot tables, VBA macros
 
-Changes made via Lovable will be committed automatically to this repo.
+### Programming & Development
+- **Java**: Object-oriented programming, Spring framework, REST APIs
+- **JavaScript/TypeScript**: React, Node.js, web development
+- **HTML/CSS**: Responsive design, modern UI frameworks
 
-**Use your preferred IDE**
+### Data Visualization & Tools
+- **Tableau**: Data visualization and storytelling
+- **R**: Statistical computing and graphics
+- **Git**: Version control and collaboration
+- **Jupyter Notebooks**: Data exploration and analysis
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Databases
+- **MySQL**: Database design, query optimization
+- **PostgreSQL**: Advanced SQL features, performance tuning
+- **MongoDB**: NoSQL databases, document-based storage
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Featured Projects
 
-Follow these steps:
+### [Interactive Sales Dashboard](https://github.com/omkar-dhamdhere/sales-dashboard)
+- **Power BI** dashboard analyzing sales performance across multiple regions
+- **Key Features**: Real-time KPIs, trend analysis, geographical mapping
+- **Impact**: Improved sales forecasting accuracy by 25%
+
+### [Customer Segmentation Analysis](https://github.com/omkar-dhamdhere/customer-segmentation)
+- **Python & SQL** analysis of customer behavior patterns
+- **Technologies**: pandas, scikit-learn, matplotlib, PostgreSQL
+- **Results**: Identified 4 distinct customer segments for targeted marketing
+
+### [Financial Data Pipeline](https://github.com/omkar-dhamdhere/financial-pipeline)
+- **Java & SQL** automated data pipeline for financial reporting
+- **Features**: ETL processes, error handling, performance monitoring
+- **Achievement**: Reduced manual processing time by 80%
+
+### [E-commerce Analytics Platform](https://github.com/omkar-dhamdhere/ecommerce-analytics)
+- **React & TypeScript** web application for e-commerce data visualization
+- **Integrations**: REST APIs, real-time data updates, responsive design
+- **Technologies**: React, D3.js, Node.js, MongoDB
+
+## Contact & Connect
+
+I'm always interested in discussing data analysis opportunities, collaborations, or interesting projects. Let's connect!
+
+- 📧 **Email**: omkar.dhamdhere@example.com
+- 💼 **LinkedIn**: [linkedin.com/in/omkar-dhamdhere](https://linkedin.com/in/omkar-dhamdhere)
+- 🐙 **GitHub**: [github.com/omkar-dhamdhere](https://github.com/omkar-dhamdhere)
+- 📱 **Phone**: +91-XXXXXXXXXX
+- 📍 **Location**: Pune, Maharashtra, India
+
+Feel free to reach out for:
+- Data analysis and visualization projects
+- Business intelligence consulting
+- Technical collaboration opportunities
+- Speaking engagements on data analytics
+
+## Getting Started
+
+To run this portfolio locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navigate to the frontend directory
+cd frontend
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Deployment
 
-**Use GitHub Codespaces**
+This portfolio is built with modern web technologies and can be deployed to any static hosting platform:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Vercel**: Recommended for React applications
+- **Netlify**: Great for static sites with continuous deployment
+- **GitHub Pages**: Free hosting for public repositories
 
-## What technologies are used for this project?
+To build for production:
+```sh
+npm run build
+```
 
-This project is built with:
+## License
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/771238f1-7635-42de-924e-33679eabe859) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open source and available under the [MIT License](LICENSE).
