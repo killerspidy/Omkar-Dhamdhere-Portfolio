@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 240 10% 98%;
+    --foreground: 240 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 10%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 10% 10%;
+
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+
+    --accent: 188 94% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 262 83% 58%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradient tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(242 83% 65%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(188 94% 50%) 0%, hsl(207 94% 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 20%) 0%, hsl(242 83% 30%) 50%, hsl(222 83% 25%) 100%);
+    
+    /* Glass effect */
+    --glass-bg: hsla(240 10% 98% / 0.1);
+    --glass-border: hsla(240 6% 90% / 0.2);
+  }
+
+  .dark {
+    --background: 240 10% 8%;
+    --foreground: 0 0% 98%;
+
+    --card: 240 8% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 240 8% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 262 83% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 240 5% 16%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 240 5% 16%;
+    --muted-foreground: 240 5% 64%;
+
+    --accent: 188 94% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 6% 20%;
+    --input: 240 6% 20%;
+    --ring: 262 83% 58%;
+
+    /* Custom gradient tokens for dark mode */
+    --gradient-primary: linear-gradient(135deg, hsl(262 83% 58%) 0%, hsl(242 83% 65%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(188 94% 50%) 0%, hsl(207 94% 60%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 15%) 0%, hsl(242 83% 20%) 50%, hsl(222 83% 18%) 100%);
+    
+    /* Glass effect for dark mode */
+    --glass-bg: hsla(240 8% 12% / 0.6);
+    --glass-border: hsla(240 6% 90% / 0.1);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .glass {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+  }
+
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-text-accent {
+    background: var(--gradient-accent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
